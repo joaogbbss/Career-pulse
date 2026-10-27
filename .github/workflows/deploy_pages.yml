@@ -26,7 +26,7 @@ jobs:
 
       - name: Install Statistical Stack
         run: |
-          pip install numpy pandas scipy scikit-learn
+          pip install numpy pandas scipy scikit-learn pyarrow
 
       - name: Run 6-Layer Statistical Engine & Build Web App
         run: |
